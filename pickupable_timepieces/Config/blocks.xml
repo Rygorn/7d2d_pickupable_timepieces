@@ -1,7 +1,11 @@
 <configs>
 
 	<append xpath="/blocks/block[@name='calendar2034']" >
-      	<property name="CanPickup" value="true"/>
+      	<property name="CanPickup" value="true" param1="calendarVariantHelper"/>
+    </append>
+	
+	<append xpath="/blocks/block[@name='posterCalendarWorkingStiff']" >
+      	<property name="CanPickup" value="true" param1="calendarVariantHelper"/>
     </append>
 	
 	<append xpath="/blocks/block[@name='wallClockWorking']" >
