@@ -1,0 +1,19 @@
+<configs>
+
+	<append xpath="/blocks/block[@name='calendar2034']" >
+      	<property name="CanPickup" value="true"/>
+    </append>
+	
+	<append xpath="/blocks/block[@name='wallClockWorking']" >
+      	<property name="CanPickup" value="true"/>
+    </append>
+	
+	<append xpath="/blocks/block[@name='wallClock']" >
+      	<property name="CanPickup" value="true"/>
+    </append>
+	
+	<append xpath="/blocks/block[@name='wallClockBroken']" >
+      	<property name="CanPickup" value="true"/>
+    </append>
+	
+</configs>
