@@ -1,11 +1,20 @@
 <configs>
 
+	<remove xpath="/blocks/block[@name='calendar2034']/drop[@event='Destroy']"/>
+	
+	<remove xpath="/blocks/block[@name='posterCalendarWorkingStiff']/drop[@event='Destroy']"/>
+
+
 	<append xpath="/blocks/block[@name='calendar2034']" >
-      	<property name="CanPickup" value="true" param1="calendar2034,1"/>
+      	<property name="CanPickup" value="true" param1="calendarVariantHelper,1"/>
+		<property name="PlaceAltBlockValue" value="calendar2034" />
+		<drop event="Destroy" name="calendar2034" count="1" />
     </append>
 	
 	<append xpath="/blocks/block[@name='posterCalendarWorkingStiff']" >
-      	<property name="CanPickup" value="true" param1="posterCalendarWorkingStiff,1"/>
+      	<property name="CanPickup" value="true" param1="calendarVariantHelper,1"/>
+		<property name="PlaceAltBlockValue" value="posterCalendarWorkingStiff" />
+		<drop event="Destroy" name="posterCalendarWorkingStiff" count="1" />
     </append>
 	
 	<append xpath="/blocks/block[@name='wallClockWorking']" >
